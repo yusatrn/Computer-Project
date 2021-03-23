@@ -1,1 +1,1 @@
-# Computer_Sales
+# Bilgisayar Satış ve Teknik Servis Projesi
