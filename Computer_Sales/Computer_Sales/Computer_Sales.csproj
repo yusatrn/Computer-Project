@@ -54,10 +54,37 @@
       <DependentUpon>Anasayfa.cs</DependentUpon>
     </Compile>
     <Compile Include="Connect.cs" />
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusterıKayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusterıKayıt.Designer.cs">
+      <DependentUpon>MusterıKayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Kayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel_Kayıt.Designer.cs">
+      <DependentUpon>Personel_Kayıt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Anasayfa.resx">
       <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusterıKayıt.resx">
+      <DependentUpon>MusterıKayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel_Kayıt.resx">
+      <DependentUpon>Personel_Kayıt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

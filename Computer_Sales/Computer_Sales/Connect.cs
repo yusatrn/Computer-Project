@@ -8,6 +8,6 @@ namespace Computer_Sales
 {
     class Connect
     {
-        public string adres = System.IO.File.ReadAllText(@"D:\source\repos\denemeOracle\denemeOracle\bin\Debug\Setting.txt");
+      //  public string adres = System.IO.File.ReadAllText(@"D:\source\repos\denemeOracle\denemeOracle\bin\Debug\Setting.txt");
     }
 }

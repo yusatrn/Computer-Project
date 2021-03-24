@@ -17,7 +17,7 @@ namespace Computer_Sales
         Connect baglanti = new Connect();
         public Anasayfa()
         {
-            con = new OracleConnection(baglanti.adres);
+           // con = new OracleConnection(baglanti.adres);
             InitializeComponent();
         }
 
@@ -43,6 +43,56 @@ namespace Computer_Sales
             {
                 MessageBox.Show(ex.Message.ToString());
             }*/
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void anasayfaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ürünSatışıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void teknikServisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void müşteriKayıtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void personelKayıtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void satılanÜrünlerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void servisteOlanÜrünlerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
