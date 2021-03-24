@@ -23,7 +23,7 @@ namespace Computer_Sales
 
         private void Anasayfa_Load(object sender, EventArgs e)
         {
-            /*
+            
             try
             {
                 con.Open();
@@ -42,7 +42,7 @@ namespace Computer_Sales
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message.ToString());
-            }*/
+            }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
