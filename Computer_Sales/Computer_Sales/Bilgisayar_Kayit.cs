@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Computer_Sales
 {
-    public partial class Personel_Kayıt : Form
+    public partial class Bilgisayar_Kayit : Form
     {
-        public Personel_Kayıt()
+        public Bilgisayar_Kayit()
         {
             InitializeComponent();
         }
 
-        private void Personel_Kayıt_Load(object sender, EventArgs e)
+        private void label13_Click(object sender, EventArgs e)
         {
 
         }

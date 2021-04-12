@@ -29,17 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.anasayfaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ürünSatışıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.teknikServisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.müşteriKayıtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.personelKayıtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.satılanÜrünlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.servisteOlanÜrünlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.raporlamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -56,10 +48,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +58,6 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.menuStrip1);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
@@ -77,6 +66,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(726, 73);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(0, 13);
+            this.label8.TabIndex = 13;
+            this.label8.Visible = false;
             // 
             // label7
             // 
@@ -97,71 +95,6 @@
             this.dataGridView1.TabIndex = 11;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.anasayfaToolStripMenuItem,
-            this.ürünSatışıToolStripMenuItem,
-            this.teknikServisToolStripMenuItem,
-            this.müşteriKayıtToolStripMenuItem,
-            this.personelKayıtToolStripMenuItem,
-            this.satılanÜrünlerToolStripMenuItem,
-            this.servisteOlanÜrünlerToolStripMenuItem,
-            this.raporlamaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(3, 16);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1340, 24);
-            this.menuStrip1.TabIndex = 10;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // anasayfaToolStripMenuItem
-            // 
-            this.anasayfaToolStripMenuItem.Name = "anasayfaToolStripMenuItem";
-            this.anasayfaToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.anasayfaToolStripMenuItem.Text = "Anasayfa";
-            // 
-            // ürünSatışıToolStripMenuItem
-            // 
-            this.ürünSatışıToolStripMenuItem.Name = "ürünSatışıToolStripMenuItem";
-            this.ürünSatışıToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.ürünSatışıToolStripMenuItem.Text = "Ürün Satışı";
-            // 
-            // teknikServisToolStripMenuItem
-            // 
-            this.teknikServisToolStripMenuItem.Name = "teknikServisToolStripMenuItem";
-            this.teknikServisToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
-            this.teknikServisToolStripMenuItem.Text = "Teknik Servis";
-            // 
-            // müşteriKayıtToolStripMenuItem
-            // 
-            this.müşteriKayıtToolStripMenuItem.Name = "müşteriKayıtToolStripMenuItem";
-            this.müşteriKayıtToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
-            this.müşteriKayıtToolStripMenuItem.Text = "Müşteri İşlemleri";
-            // 
-            // personelKayıtToolStripMenuItem
-            // 
-            this.personelKayıtToolStripMenuItem.Name = "personelKayıtToolStripMenuItem";
-            this.personelKayıtToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
-            this.personelKayıtToolStripMenuItem.Text = "Personel İşlemleri";
-            // 
-            // satılanÜrünlerToolStripMenuItem
-            // 
-            this.satılanÜrünlerToolStripMenuItem.Name = "satılanÜrünlerToolStripMenuItem";
-            this.satılanÜrünlerToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
-            this.satılanÜrünlerToolStripMenuItem.Text = "Satılan Ürünler";
-            // 
-            // servisteOlanÜrünlerToolStripMenuItem
-            // 
-            this.servisteOlanÜrünlerToolStripMenuItem.Name = "servisteOlanÜrünlerToolStripMenuItem";
-            this.servisteOlanÜrünlerToolStripMenuItem.Size = new System.Drawing.Size(129, 20);
-            this.servisteOlanÜrünlerToolStripMenuItem.Text = "Serviste Olan Ürünler";
-            // 
-            // raporlamaToolStripMenuItem
-            // 
-            this.raporlamaToolStripMenuItem.Name = "raporlamaToolStripMenuItem";
-            this.raporlamaToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
-            this.raporlamaToolStripMenuItem.Text = "Raporlama";
             // 
             // groupBox2
             // 
@@ -313,15 +246,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Ad";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(726, 73);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(0, 13);
-            this.label8.TabIndex = 13;
-            this.label8.Visible = false;
-            // 
             // MusterıKayıt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -334,8 +258,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -361,15 +283,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem anasayfaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ürünSatışıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem teknikServisToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem müşteriKayıtToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem personelKayıtToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem satılanÜrünlerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem servisteOlanÜrünlerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem raporlamaToolStripMenuItem;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label8;

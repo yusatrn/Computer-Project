@@ -53,6 +53,18 @@
     <Compile Include="Anasayfa.Designer.cs">
       <DependentUpon>Anasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bilgisayar_Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilgisayar_Kayit.Designer.cs">
+      <DependentUpon>Bilgisayar_Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bilgisayar_Satis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilgisayar_Satis.Designer.cs">
+      <DependentUpon>Bilgisayar_Satis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connect.cs" />
     <Compile Include="Giris.cs">
       <SubType>Form</SubType>
@@ -76,6 +88,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Anasayfa.resx">
       <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bilgisayar_Kayit.resx">
+      <DependentUpon>Bilgisayar_Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bilgisayar_Satis.resx">
+      <DependentUpon>Bilgisayar_Satis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Giris.resx">
       <DependentUpon>Giris.cs</DependentUpon>

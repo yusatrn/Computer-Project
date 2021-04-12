@@ -14,9 +14,12 @@ namespace Computer_Sales
 
     public partial class MusterıKayıt : Form
     {
-        OracleConnection con = new OracleConnection( "Data Source=XE;User ID = COMPUTER;Password=h1597531");
+        OracleConnection con;
+        Connect baglanti = new Connect();
+       // OracleConnection con = new OracleConnection( "Data Source=XE;User ID = COMPUTER;Password=h1597531");
         public MusterıKayıt()
         {
+            con = new OracleConnection(baglanti.adres);
             InitializeComponent();
         }
 

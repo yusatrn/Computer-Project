@@ -29,16 +29,14 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.anasayfaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ürünSatışıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.teknikServisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.müşteriKayıtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.personelKayıtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.satılanÜrünlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.servisteOlanÜrünlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.raporlamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label8 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -54,24 +52,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.menuStrip1);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(2, 3);
             this.groupBox1.Name = "groupBox1";
@@ -80,70 +69,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // menuStrip1
+            // label8
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.anasayfaToolStripMenuItem,
-            this.ürünSatışıToolStripMenuItem,
-            this.teknikServisToolStripMenuItem,
-            this.müşteriKayıtToolStripMenuItem,
-            this.personelKayıtToolStripMenuItem,
-            this.satılanÜrünlerToolStripMenuItem,
-            this.servisteOlanÜrünlerToolStripMenuItem,
-            this.raporlamaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(3, 16);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1340, 24);
-            this.menuStrip1.TabIndex = 10;
-            this.menuStrip1.Text = "menuStrip1";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(637, 70);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(80, 13);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Personel Listesi";
             // 
-            // anasayfaToolStripMenuItem
+            // dataGridView1
             // 
-            this.anasayfaToolStripMenuItem.Name = "anasayfaToolStripMenuItem";
-            this.anasayfaToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.anasayfaToolStripMenuItem.Text = "Anasayfa";
-            // 
-            // ürünSatışıToolStripMenuItem
-            // 
-            this.ürünSatışıToolStripMenuItem.Name = "ürünSatışıToolStripMenuItem";
-            this.ürünSatışıToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.ürünSatışıToolStripMenuItem.Text = "Ürün Satışı";
-            // 
-            // teknikServisToolStripMenuItem
-            // 
-            this.teknikServisToolStripMenuItem.Name = "teknikServisToolStripMenuItem";
-            this.teknikServisToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
-            this.teknikServisToolStripMenuItem.Text = "Teknik Servis";
-            // 
-            // müşteriKayıtToolStripMenuItem
-            // 
-            this.müşteriKayıtToolStripMenuItem.Name = "müşteriKayıtToolStripMenuItem";
-            this.müşteriKayıtToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
-            this.müşteriKayıtToolStripMenuItem.Text = "Müşteri İşlemleri";
-            // 
-            // personelKayıtToolStripMenuItem
-            // 
-            this.personelKayıtToolStripMenuItem.Name = "personelKayıtToolStripMenuItem";
-            this.personelKayıtToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
-            this.personelKayıtToolStripMenuItem.Text = "Personel İşlemleri";
-            // 
-            // satılanÜrünlerToolStripMenuItem
-            // 
-            this.satılanÜrünlerToolStripMenuItem.Name = "satılanÜrünlerToolStripMenuItem";
-            this.satılanÜrünlerToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
-            this.satılanÜrünlerToolStripMenuItem.Text = "Satılan Ürünler";
-            // 
-            // servisteOlanÜrünlerToolStripMenuItem
-            // 
-            this.servisteOlanÜrünlerToolStripMenuItem.Name = "servisteOlanÜrünlerToolStripMenuItem";
-            this.servisteOlanÜrünlerToolStripMenuItem.Size = new System.Drawing.Size(129, 20);
-            this.servisteOlanÜrünlerToolStripMenuItem.Text = "Serviste Olan Ürünler";
-            // 
-            // raporlamaToolStripMenuItem
-            // 
-            this.raporlamaToolStripMenuItem.Name = "raporlamaToolStripMenuItem";
-            this.raporlamaToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
-            this.raporlamaToolStripMenuItem.Text = "Raporlama";
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(629, 103);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(678, 389);
+            this.dataGridView1.TabIndex = 11;
             // 
             // groupBox2
             // 
@@ -173,6 +114,52 @@
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(136, 379);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(60, 17);
+            this.checkBox3.TabIndex = 20;
+            this.checkBox3.Text = "Okuma";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(72, 379);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(58, 17);
+            this.checkBox2.TabIndex = 19;
+            this.checkBox2.Text = "Yazma";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(16, 379);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(50, 17);
+            this.checkBox1.TabIndex = 18;
+            this.checkBox1.Text = "Yetki";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(16, 342);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.TabIndex = 17;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(13, 326);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Departman";
             // 
             // button3
             // 
@@ -297,84 +284,20 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Ad";
             // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(16, 342);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 17;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 326);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Departman";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(16, 379);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(50, 17);
-            this.checkBox1.TabIndex = 18;
-            this.checkBox1.Text = "Yetki";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(72, 379);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(58, 17);
-            this.checkBox2.TabIndex = 19;
-            this.checkBox2.Text = "Yazma";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(136, 379);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(60, 17);
-            this.checkBox3.TabIndex = 20;
-            this.checkBox3.Text = "Okuma";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(629, 103);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(678, 389);
-            this.dataGridView1.TabIndex = 11;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(637, 70);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 13);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Personel Listesi";
-            // 
             // Personel_Kayıt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1389, 582);
+            this.ClientSize = new System.Drawing.Size(1370, 582);
             this.Controls.Add(this.groupBox1);
             this.Name = "Personel_Kayıt";
             this.Text = "Personel_Kayıt";
+            this.Load += new System.EventHandler(this.Personel_Kayıt_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -382,15 +305,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem anasayfaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ürünSatışıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem teknikServisToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem müşteriKayıtToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem personelKayıtToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem satılanÜrünlerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem servisteOlanÜrünlerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem raporlamaToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;

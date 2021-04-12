@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Computer_Sales
 {
-    public partial class Personel_Kayıt : Form
+    public partial class Bilgisayar_Satis : Form
     {
-        public Personel_Kayıt()
+        public Bilgisayar_Satis()
         {
             InitializeComponent();
-        }
-
-        private void Personel_Kayıt_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Computer_Sales
 
         private void Anasayfa_Load(object sender, EventArgs e)
         {
-            
+            /* 
             try
             {
                 con.Open();
@@ -42,7 +42,7 @@ namespace Computer_Sales
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message.ToString());
-            }
+            }*/
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -93,6 +93,31 @@ namespace Computer_Sales
         private void servisteOlanÜrünlerToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form satis = new Bilgisayar_Satis();
+            satis.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form kayit = new Bilgisayar_Kayit();
+            kayit.ShowDialog();
+        }
+
+        private void bilgisayarSatışToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form satis = new Bilgisayar_Satis();
+            satis.ShowDialog();
+
+        }
+
+        private void bilgisayarKayıtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form kayit = new Bilgisayar_Kayit();
+            kayit.ShowDialog();
         }
     }
 }
